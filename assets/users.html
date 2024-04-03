@@ -3,9 +3,100 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>test 1</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/util.css">
+    
 </head>
 <body>
+  <!-- navigation bar------------------------------------------------- -->
+
+    <nav class="grey darken-1 z-depth-0">
+        <div class="nav-wrapper">
+          <a href="#!" class="hide-on-med-and-up">user management</a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <ul class="hide-on-med-and-down">
+            <li><a href="index.html">home</a></li>
+            <li><a href="badges.html">about</a></li>
+            <li><a href="users.html">user management</a></li>
+            <li><a href="mobile.html">AQ learn</a></li>
+          </ul>
+        </div>
+
+
+
+        <ul id="slide-out" class="sidenav">
+          <li><div class="user-view">
+            <div class="background">
+              <img src="images/office.jpg">
+            </div>
+            <a href="#user"><img class="circle" src="images/yuna.jpg"></a>
+            <a href="#name"><span class="white-text name">John Doe</span></a>
+            <a href="#email"><span class="white-text email">jdandturk@gmail.com</span></a>
+          </div></li>
+          <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
+          <li><a href="#!">Second Link</a></li>
+          <li><div class="divider"></div></li>
+          <li><a class="subheader">Subheader</a></li>
+          <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+        </ul>
+        <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    </nav>
+    <section class="main section">
+            <!-- user confirm________________________________________________________________ -->
+     <div class="p-l-10 p-r-10 p-t-10">
+         <button class="waves-effect waves-light btn grey darken-1 w-full p-l-30 p-r-30 flex-c">
+             <i class="material-icons m-r-5">add</i>
+             Add User
+         </button>
+     </div>
+     <!-- search input________________________________________________________ -->
+     <div class="row">
+         <div class="input-field col s12">
+            <input id="search" type="text" class="validate">
+            <label for="search"><i class="material-icons pos-relative top-7">search</i>sreach</label>
+         </div>
+     </div>
+    </section>
+    <section class="user-list-section">
+        <ul class="collapsible">
+            <li>
+              <div class="collapsible-header"><i class="material-icons">filter_drama</i>First</div>
+              <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+            </li>
+            <li>
+              <div class="collapsible-header"><i class="material-icons">place</i>Second</div>
+              <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+            </li>
+            <li>
+              <div class="collapsible-header"><i class="material-icons">whatshot</i>Third</div>
+              <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+            </li>
+          </ul>
+
+
+
+
+
+    </section>
+
+
     
+
+    
+
+
+
+
+
+
+
+
+    <script src="/assets/js/users.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <script src="js/materialize.js"></script>
 </body>
 </html>
