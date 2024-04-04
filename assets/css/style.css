@@ -2,3 +2,6 @@
     border-radius: 20px;
 
 }
+table.highlight > tbody > tr:hover {
+    background-color: gray;
+  }
